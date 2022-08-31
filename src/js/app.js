@@ -1,5 +1,5 @@
+import Game, { GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame } from './game.js';
+
 const game = new Game();
 game.start();
 
-const gameExported = require('./game');
-const { readGameSaving: loadGame, writeGameSaving: saveGame } = require('./game');

@@ -1,5 +1,2 @@
-class Character {
-
+export default class Character {
 }
-
-exports.Character;
